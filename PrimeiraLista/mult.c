@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-long long int mult(int a, int b) {
+long long int mult(long long int a,long long int b) {
     long long int s = a*b;
     return s;
 }
 
 int main(){
-    int a,b;
-    scanf("%d %d", &a, &b);
+   long long int a,b;
+    scanf("%lld %lld", &a, &b);
     printf("%lld\n", mult(a, b));
     return 0;
 }
